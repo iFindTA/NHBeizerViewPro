@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6069F3BF1B737FBE00E67DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3BE1B737FBE00E67DAC /* main.m */; };
+		6069F3C21B737FBE00E67DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3C11B737FBE00E67DAC /* AppDelegate.m */; };
+		6069F3C51B737FBE00E67DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3C41B737FBE00E67DAC /* ViewController.m */; };
+		6069F3C81B737FBE00E67DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6069F3C61B737FBE00E67DAC /* Main.storyboard */; };
+		6069F3CA1B737FBE00E67DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6069F3C91B737FBE00E67DAC /* Images.xcassets */; };
+		6069F3CD1B737FBE00E67DAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6069F3CB1B737FBE00E67DAC /* LaunchScreen.xib */; };
+		6069F3D91B737FBE00E67DAC /* NHBeizerViewProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3D81B737FBE00E67DAC /* NHBeizerViewProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6069F3D31B737FBE00E67DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6069F3B11B737FBE00E67DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6069F3B81B737FBE00E67DAC;
+			remoteInfo = NHBeizerViewPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6069F3B91B737FBE00E67DAC /* NHBeizerViewPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHBeizerViewPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6069F3BD1B737FBE00E67DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6069F3BE1B737FBE00E67DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6069F3C01B737FBE00E67DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6069F3C11B737FBE00E67DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6069F3C31B737FBE00E67DAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6069F3C41B737FBE00E67DAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6069F3C71B737FBE00E67DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6069F3C91B737FBE00E67DAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6069F3CC1B737FBE00E67DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6069F3D21B737FBE00E67DAC /* NHBeizerViewProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHBeizerViewProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6069F3D71B737FBE00E67DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6069F3D81B737FBE00E67DAC /* NHBeizerViewProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHBeizerViewProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6069F3B61B737FBE00E67DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6069F3CF1B737FBE00E67DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6069F3B01B737FBE00E67DAC = {
+			isa = PBXGroup;
+			children = (
+				6069F3BB1B737FBE00E67DAC /* NHBeizerViewPro */,
+				6069F3D51B737FBE00E67DAC /* NHBeizerViewProTests */,
+				6069F3BA1B737FBE00E67DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6069F3BA1B737FBE00E67DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3B91B737FBE00E67DAC /* NHBeizerViewPro.app */,
+				6069F3D21B737FBE00E67DAC /* NHBeizerViewProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6069F3BB1B737FBE00E67DAC /* NHBeizerViewPro */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3C01B737FBE00E67DAC /* AppDelegate.h */,
+				6069F3C11B737FBE00E67DAC /* AppDelegate.m */,
+				6069F3C31B737FBE00E67DAC /* ViewController.h */,
+				6069F3C41B737FBE00E67DAC /* ViewController.m */,
+				6069F3C61B737FBE00E67DAC /* Main.storyboard */,
+				6069F3C91B737FBE00E67DAC /* Images.xcassets */,
+				6069F3CB1B737FBE00E67DAC /* LaunchScreen.xib */,
+				6069F3BC1B737FBE00E67DAC /* Supporting Files */,
+			);
+			path = NHBeizerViewPro;
+			sourceTree = "<group>";
+		};
+		6069F3BC1B737FBE00E67DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3BD1B737FBE00E67DAC /* Info.plist */,
+				6069F3BE1B737FBE00E67DAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6069F3D51B737FBE00E67DAC /* NHBeizerViewProTests */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3D81B737FBE00E67DAC /* NHBeizerViewProTests.m */,
+				6069F3D61B737FBE00E67DAC /* Supporting Files */,
+			);
+			path = NHBeizerViewProTests;
+			sourceTree = "<group>";
+		};
+		6069F3D61B737FBE00E67DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3D71B737FBE00E67DAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6069F3B81B737FBE00E67DAC /* NHBeizerViewPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6069F3DC1B737FBE00E67DAC /* Build configuration list for PBXNativeTarget "NHBeizerViewPro" */;
+			buildPhases = (
+				6069F3B51B737FBE00E67DAC /* Sources */,
+				6069F3B61B737FBE00E67DAC /* Frameworks */,
+				6069F3B71B737FBE00E67DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHBeizerViewPro;
+			productName = NHBeizerViewPro;
+			productReference = 6069F3B91B737FBE00E67DAC /* NHBeizerViewPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6069F3D11B737FBE00E67DAC /* NHBeizerViewProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6069F3DF1B737FBE00E67DAC /* Build configuration list for PBXNativeTarget "NHBeizerViewProTests" */;
+			buildPhases = (
+				6069F3CE1B737FBE00E67DAC /* Sources */,
+				6069F3CF1B737FBE00E67DAC /* Frameworks */,
+				6069F3D01B737FBE00E67DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6069F3D41B737FBE00E67DAC /* PBXTargetDependency */,
+			);
+			name = NHBeizerViewProTests;
+			productName = NHBeizerViewProTests;
+			productReference = 6069F3D21B737FBE00E67DAC /* NHBeizerViewProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6069F3B11B737FBE00E67DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "hu jiaju";
+				TargetAttributes = {
+					6069F3B81B737FBE00E67DAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6069F3D11B737FBE00E67DAC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6069F3B81B737FBE00E67DAC;
+					};
+				};
+			};
+			buildConfigurationList = 6069F3B41B737FBE00E67DAC /* Build configuration list for PBXProject "NHBeizerViewPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6069F3B01B737FBE00E67DAC;
+			productRefGroup = 6069F3BA1B737FBE00E67DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6069F3B81B737FBE00E67DAC /* NHBeizerViewPro */,
+				6069F3D11B737FBE00E67DAC /* NHBeizerViewProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6069F3B71B737FBE00E67DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6069F3C81B737FBE00E67DAC /* Main.storyboard in Resources */,
+				6069F3CD1B737FBE00E67DAC /* LaunchScreen.xib in Resources */,
+				6069F3CA1B737FBE00E67DAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6069F3D01B737FBE00E67DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6069F3B51B737FBE00E67DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6069F3C51B737FBE00E67DAC /* ViewController.m in Sources */,
+				6069F3C21B737FBE00E67DAC /* AppDelegate.m in Sources */,
+				6069F3BF1B737FBE00E67DAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6069F3CE1B737FBE00E67DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6069F3D91B737FBE00E67DAC /* NHBeizerViewProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6069F3D41B737FBE00E67DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6069F3B81B737FBE00E67DAC /* NHBeizerViewPro */;
+			targetProxy = 6069F3D31B737FBE00E67DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6069F3C61B737FBE00E67DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6069F3C71B737FBE00E67DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6069F3CB1B737FBE00E67DAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6069F3CC1B737FBE00E67DAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6069F3DA1B737FBE00E67DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6069F3DB1B737FBE00E67DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6069F3DD1B737FBE00E67DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHBeizerViewPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6069F3DE1B737FBE00E67DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHBeizerViewPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6069F3E01B737FBE00E67DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHBeizerViewProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHBeizerViewPro.app/NHBeizerViewPro";
+			};
+			name = Debug;
+		};
+		6069F3E11B737FBE00E67DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHBeizerViewProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHBeizerViewPro.app/NHBeizerViewPro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6069F3B41B737FBE00E67DAC /* Build configuration list for PBXProject "NHBeizerViewPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6069F3DA1B737FBE00E67DAC /* Debug */,
+				6069F3DB1B737FBE00E67DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6069F3DC1B737FBE00E67DAC /* Build configuration list for PBXNativeTarget "NHBeizerViewPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6069F3DD1B737FBE00E67DAC /* Debug */,
+				6069F3DE1B737FBE00E67DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6069F3DF1B737FBE00E67DAC /* Build configuration list for PBXNativeTarget "NHBeizerViewProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6069F3E01B737FBE00E67DAC /* Debug */,
+				6069F3E11B737FBE00E67DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6069F3B11B737FBE00E67DAC /* Project object */;
+}
