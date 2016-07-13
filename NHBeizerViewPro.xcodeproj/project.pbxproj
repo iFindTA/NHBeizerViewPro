@@ -14,6 +14,16 @@
 		6069F3CA1B737FBE00E67DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6069F3C91B737FBE00E67DAC /* Images.xcassets */; };
 		6069F3CD1B737FBE00E67DAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6069F3CB1B737FBE00E67DAC /* LaunchScreen.xib */; };
 		6069F3D91B737FBE00E67DAC /* NHBeizerViewProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3D81B737FBE00E67DAC /* NHBeizerViewProTests.m */; };
+		6069F3E41B73882300E67DAC /* NHCusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3E31B73882300E67DAC /* NHCusView.m */; };
+		608B390A1CACB78C00DFB91D /* NHBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 608B39091CACB78C00DFB91D /* NHBallView.m */; };
+		60A2DE871B84836500D824CA /* NHSectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A2DE861B84836500D824CA /* NHSectorView.m */; };
+		60B0B3841CF71E120068E6E0 /* NHCountingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B3831CF71E120068E6E0 /* NHCountingHUD.m */; };
+		60B6D1E91BD78DB6005786C5 /* NHDashBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6D1E81BD78DB6005786C5 /* NHDashBoardView.m */; };
+		60B6D1EC1BD8AC4C005786C5 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6D1EB1BD8AC4C005786C5 /* UICountingLabel.m */; };
+		60C3D7181BA6D74300781E52 /* NHMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C3D7171BA6D74300781E52 /* NHMaskView.m */; };
+		60C9C8631BA7CFD5007EEACD /* finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8621BA7CFD5007EEACD /* finger.png */; };
+		60C9ECB21B9D191700744300 /* NHPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9ECB11B9D191700744300 /* NHPieChartView.m */; };
+		60C9ECB41B9D669800744300 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C9ECB31B9D669800744300 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,24 @@
 		6069F3D21B737FBE00E67DAC /* NHBeizerViewProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHBeizerViewProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6069F3D71B737FBE00E67DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6069F3D81B737FBE00E67DAC /* NHBeizerViewProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHBeizerViewProTests.m; sourceTree = "<group>"; };
+		6069F3E21B73882300E67DAC /* NHCusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCusView.h; sourceTree = "<group>"; };
+		6069F3E31B73882300E67DAC /* NHCusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCusView.m; sourceTree = "<group>"; };
+		608B39081CACB78C00DFB91D /* NHBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBallView.h; sourceTree = "<group>"; };
+		608B39091CACB78C00DFB91D /* NHBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBallView.m; sourceTree = "<group>"; };
+		60A2DE851B84836500D824CA /* NHSectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSectorView.h; sourceTree = "<group>"; };
+		60A2DE861B84836500D824CA /* NHSectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSectorView.m; sourceTree = "<group>"; };
+		60B0B3821CF71E120068E6E0 /* NHCountingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCountingHUD.h; sourceTree = "<group>"; };
+		60B0B3831CF71E120068E6E0 /* NHCountingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCountingHUD.m; sourceTree = "<group>"; };
+		60B6D1E71BD78DB6005786C5 /* NHDashBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDashBoardView.h; sourceTree = "<group>"; };
+		60B6D1E81BD78DB6005786C5 /* NHDashBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDashBoardView.m; sourceTree = "<group>"; };
+		60B6D1EA1BD8AC4C005786C5 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		60B6D1EB1BD8AC4C005786C5 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		60C3D7161BA6D74300781E52 /* NHMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMaskView.h; sourceTree = "<group>"; };
+		60C3D7171BA6D74300781E52 /* NHMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMaskView.m; sourceTree = "<group>"; };
+		60C9C8621BA7CFD5007EEACD /* finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger.png; sourceTree = "<group>"; };
+		60C9ECB01B9D191700744300 /* NHPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPieChartView.h; sourceTree = "<group>"; };
+		60C9ECB11B9D191700744300 /* NHPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPieChartView.m; sourceTree = "<group>"; };
+		60C9ECB31B9D669800744300 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C9ECB41B9D669800744300 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 		6069F3B01B737FBE00E67DAC = {
 			isa = PBXGroup;
 			children = (
+				60C9ECB31B9D669800744300 /* AdSupport.framework */,
 				6069F3BB1B737FBE00E67DAC /* NHBeizerViewPro */,
 				6069F3D51B737FBE00E67DAC /* NHBeizerViewProTests */,
 				6069F3BA1B737FBE00E67DAC /* Products */,
@@ -85,6 +115,22 @@
 				6069F3C11B737FBE00E67DAC /* AppDelegate.m */,
 				6069F3C31B737FBE00E67DAC /* ViewController.h */,
 				6069F3C41B737FBE00E67DAC /* ViewController.m */,
+				6069F3E21B73882300E67DAC /* NHCusView.h */,
+				6069F3E31B73882300E67DAC /* NHCusView.m */,
+				60A2DE851B84836500D824CA /* NHSectorView.h */,
+				60A2DE861B84836500D824CA /* NHSectorView.m */,
+				60C9ECB01B9D191700744300 /* NHPieChartView.h */,
+				60C9ECB11B9D191700744300 /* NHPieChartView.m */,
+				60C3D7161BA6D74300781E52 /* NHMaskView.h */,
+				60C3D7171BA6D74300781E52 /* NHMaskView.m */,
+				60B6D1E71BD78DB6005786C5 /* NHDashBoardView.h */,
+				60B6D1E81BD78DB6005786C5 /* NHDashBoardView.m */,
+				60B6D1EA1BD8AC4C005786C5 /* UICountingLabel.h */,
+				60B6D1EB1BD8AC4C005786C5 /* UICountingLabel.m */,
+				608B39081CACB78C00DFB91D /* NHBallView.h */,
+				608B39091CACB78C00DFB91D /* NHBallView.m */,
+				60B0B3821CF71E120068E6E0 /* NHCountingHUD.h */,
+				60B0B3831CF71E120068E6E0 /* NHCountingHUD.m */,
 				6069F3C61B737FBE00E67DAC /* Main.storyboard */,
 				6069F3C91B737FBE00E67DAC /* Images.xcassets */,
 				6069F3CB1B737FBE00E67DAC /* LaunchScreen.xib */,
@@ -96,6 +142,7 @@
 		6069F3BC1B737FBE00E67DAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60C9C8611BA7CFD5007EEACD /* resources */,
 				6069F3BD1B737FBE00E67DAC /* Info.plist */,
 				6069F3BE1B737FBE00E67DAC /* main.m */,
 			);
@@ -117,6 +164,14 @@
 				6069F3D71B737FBE00E67DAC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C9C8611BA7CFD5007EEACD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8621BA7CFD5007EEACD /* finger.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +223,7 @@
 				TargetAttributes = {
 					6069F3B81B737FBE00E67DAC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4WJ4F55RGP;
 					};
 					6069F3D11B737FBE00E67DAC = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C9C8631BA7CFD5007EEACD /* finger.png in Resources */,
 				6069F3C81B737FBE00E67DAC /* Main.storyboard in Resources */,
 				6069F3CD1B737FBE00E67DAC /* LaunchScreen.xib in Resources */,
 				6069F3CA1B737FBE00E67DAC /* Images.xcassets in Resources */,
@@ -221,6 +278,14 @@
 			files = (
 				6069F3C51B737FBE00E67DAC /* ViewController.m in Sources */,
 				6069F3C21B737FBE00E67DAC /* AppDelegate.m in Sources */,
+				60B6D1EC1BD8AC4C005786C5 /* UICountingLabel.m in Sources */,
+				6069F3E41B73882300E67DAC /* NHCusView.m in Sources */,
+				60C3D7181BA6D74300781E52 /* NHMaskView.m in Sources */,
+				60A2DE871B84836500D824CA /* NHSectorView.m in Sources */,
+				60B6D1E91BD78DB6005786C5 /* NHDashBoardView.m in Sources */,
+				608B390A1CACB78C00DFB91D /* NHBallView.m in Sources */,
+				60C9ECB21B9D191700744300 /* NHPieChartView.m in Sources */,
+				60B0B3841CF71E120068E6E0 /* NHCountingHUD.m in Sources */,
 				6069F3BF1B737FBE00E67DAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,8 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NHBeizerViewPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.processa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NHBeizerViewPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.processa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +489,7 @@
 				6069F3DE1B737FBE00E67DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6069F3DF1B737FBE00E67DAC /* Build configuration list for PBXNativeTarget "NHBeizerViewProTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +498,7 @@
 				6069F3E11B737FBE00E67DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
